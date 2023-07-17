@@ -56,21 +56,57 @@ Analyze your dataset by using Pandas functions to answer the following questions
 	A:  The number of Martian and Earth days are equivalent as can be seen in the mars_df dataframe.  Therefore, there are 1867 Mars days.  Also, from the first question, we know that a day on Mars 
 	
 3. What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
-	
-	A: From the average minimum temperature, it was determined that the temperature was the coldest month was the third at -83.3°C with the fourth month being the second coldest at -82.7°C.  The warmest month on Mars was the 8th month at -68.4°C.  Although we generally have a lot warmer temperatures on Earth, the Coldest temperautre recorded on earth was -89.2°C.  Fortunately, these tempeartures are isolated to places such as the Antartica.
 
-	Reference
-	https://wmo.asu.edu/content/world-lowest-temperature
+<div align="center"> 
+
+Minimum Temperature(°C) for each "Month" on mars (based on Terrestrial Months)
+	
+![](https://github.com/TraceyGeneau/scrape_mars/blob/main/Starter_Code/output/cold_month_on_mars.png)	
+
+</div>
+
+ 
+ A: From the average minimum temperature, it was determined that the temperature was the coldest month was the third at -83.3°C with the fourth month being the second coldest at -82.7°C.  The warmest month on Mars was the 8th month at -68.4°C.  Although we generally have a lot warmer temperatures on Earth, the Coldest temperautre recorded on earth was -89.2°C.  Fortunately, these tempeartures are isolated to places such as the Antartica.
+
+Reference
+https://wmo.asu.edu/content/world-lowest-temperature
 	
 4. Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
+
+<div align="center"> 
+
+Atmospheric Pressure mm(Hgg) for each "Month" on mars (based on Terrestrial Months)
 	
-	A:  The month is the highest atmospheric pressure was the 9th month with 913.3 mmHg whereas the lowest was the 6th month with 745.1 mmHg.  
+![](https://github.com/TraceyGeneau/scrape_mars/blob/main/Starter_Code/output/avg_pressure_on_mars.png)	
+
+</div>
+
+A:  The month is the highest atmospheric pressure was the 9th month with 913.3 mmHg whereas the lowest was the 6th month with 745.1 mmHg.  
 
 
 5. About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
+
+<div align="center"> 
+
+Solar Days (Sol) as compared to the Mininmum Temperature (°C) on Mars
+	
+![](https://github.com/TraceyGeneau/scrape_mars/blob/main/Starter_Code/output/mintempvsterrdays.png)	
+
+</div>
+
+<div align="center"> 
+
+Data Frame of the Solar Days and Minimum Temperature (°C)
+	
+![](https://github.com/TraceyGeneau/scrape_mars/blob/main/Starter_Code/output/terre_df.png)	
+
+</div>
+
+
 
 	A:  We can see in the graph above that at approximately 500 days we get a lowest peak or winter peak.  From the terr_sort_df we can get an approximate sol = 535.  The next peak occurs about 1200-1250.  From this we get a sol from 1219 to 1237.  The mid point is 1224.  The difference between these two points is 689.  From the NASA "Mars: The Red Planet" website, it was confirmed that a Mars year is equivalent to 687 earth days. 
 
 	Reference
 	(ttps://solarsystem.nasa.gov/planets/mars/in-depth/#:~:text=Rotation-,Orbit%20and%20Rotation,same%20as%20687%20Earth%20days.)
+
 
